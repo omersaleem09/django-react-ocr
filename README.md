@@ -5,10 +5,11 @@
 **DJANGO**
 -------------------------------
 1. cd taxgpt
-2. pip install -r requirements.txt
-3. python manage.py migrate
-4. python manage.py createsuperuser admin
-5. python manage.py runserver
+2. create virtual env
+3. pip install -r requirements.txt
+4. python manage.py migrate
+5. python manage.py createsuperuser admin
+6. python manage.py runserver
 
 **REACT**
 ------------------------------------
