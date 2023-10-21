@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3m)szzee9su!#cdue0_h!ilnh%bq4^nga+_p(c@z8j+r(qz#9i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','.vercel.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -81,8 +81,7 @@ WSGI_APPLICATION = 'taxgpt.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
